@@ -1,0 +1,134 @@
+<html>
+<head>
+
+<link rel="stylesheet"  href="calc.css"/>
+
+
+<style>  
+.center
+ {
+ margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+</style>
+
+
+
+
+
+<style>
+
+#rcorners1 {
+  text-align: center;
+  margin: auto;
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+ 
+}
+</style>
+
+<style>
+body {
+  color: white;
+}
+
+h2 {
+  color: #fe876d;
+}
+</style>
+
+
+<style>
+
+
+.button {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: #fe876d;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+</style>
+<style>
+::-webkit-input-placeholder { /* Edge */
+  color: #fe876d;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #fe876d;
+}
+
+::placeholder {
+  color: #fe876d;
+}
+{
+  border-radius: 250px;
+
+}
+</style>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body style="background-color:#fe876d">
+
+<div class="center">
+
+<form action="" id="converter">
+<p style="text-align:right;"></p>
+<input type="number" name="amount" placeholder="type here">
+ <br><br> <p style=text-align:center;>:من</p>
+  <select name="from">
+    <option value="LBP"  >🇱🇧️ليرة لبنانية🇱🇧️</option>
+    <option value="SYP">🇸🇾️ليرة سورية🇸🇾️</option>
+    <option value="USD">🇺🇲️دولار امريكي🇺🇲️</option>
+    <option value="EUR"> 🇪🇺يورو🇪🇺</option>
+  </select>
+ <br> <br>  <p style="text-align:center;">:الى</p>
+  <select name="to" style=align;right;>
+    <option value="LBP">LBP</option>
+        <option value="SYP">🇸🇾️ليرة سورية🇸🇾️</option>
+    <option value="USD" selected>USD</option>
+    <option value="EUR">EUR</option>
+  </select>
+  <br><br><button class="button button4">تحويل</button>
+</form>
+
+
+
+<div id="rcorners1">
+
+<h2  id="output"   >		
+
+
+ 
+<script src="calc.js"></script>
+</h2>
+
+
+</div>
+</div>
+</body>
+
+
+ </html>
